@@ -1,50 +1,56 @@
+* {
+  /*inspecting box models */
+  /* border: 2px solid gray; */
+  max-width: max-content;
+  margin-left: 0.5rem;
+}
+
 body {
-  /*rgb(35, 37, 43)*/
   background-color: rgb(35, 37, 43);
   color: rgb(211, 211, 211);
   font-family: 'Courier New', sans-serif;
-  font-size: 19px;
-  font-weight: 300;
-  padding-top: 20px;
-  padding-left: 20px;
-  text-align: left;   
+  font-size: 14px;
+  max-width: 600px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .home-greeting {
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  
+  font-size: 40px;
 }
 
 .quote {
   background-color: rgb(36, 36, 36);
-  padding: 20px 20px
+  padding: 25px;
 }
-
 
 .last-update {
   font-style: italic;
   font-size: 14px;
+  padding: 1em;
 }
 
-button {
-  color:black;
-  background-color: rgb(240, 240, 240);
+.sitelinks {
+  color:rgb(211, 211, 211);
+  background-color: transparent;
   border: 1px solid black;
   border-color: rgb(255, 255, 255);
   padding: 1px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   margin: 2px 2px;
   transition-duration: 0.5s;
   cursor: pointer;
   }
 
-  
-button:hover {
-  background-color:rgb(35, 37, 43);
-  color: white;
+.sitelinks:hover {
+  background-color: white;
+  color: black;
 }
 
