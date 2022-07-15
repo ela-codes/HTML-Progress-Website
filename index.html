@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- set up metadata information to be read in browser-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ELA'S CRIB</title>
-        <link rel="stylesheet" href ="style.css">
-    </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ELA'S CRIB</title>
+		<link rel="stylesheet" href ="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+	</head>
 
-    <body>
-        <img src="https://64.media.tumblr.com/375cc3a9ae4ce446ef007f23bd97fbd0/tumblr_pf7llcz9DD1sgm6puo1_640.gifv" width="1000" height="auto">
-        <h1 class="home-greeting">Hi! This is Ela. </h1>
+	<body>
+		<div class="page">
+			<div class="navbar">
+				<a href="../index.html"><div class="site-links">Home</div></a>
+				<a href="pages/about.html"><div class="site-links">About Me</div></a>
+				<a href="pages/recipe.html"><div class="site-links">Dessert Recipes</div></a>
+				<a href="https://www.instagram.com/ela.codes" target = '_blank'><div class="site-links">Instagram</div></a>
+				<a href="https://github.com/ateodocio" target = '_blank'><div class="site-links">GitHub</div></a>
+			</div>
 
-        <div class="intro-paragraph"><p>It's my first website. I am operating on <strike>Xubuntu</strike> WSL2, using VS Code, and following The Odin Project curriculum. I am currently pursuing a <em>full-stack developer</em> roadmap with a background in<em> Python.</em> I'm using this website to showcase my progress as I go through the course.
-        <p>This will evolve into a responsive, aesthetically-pleasing, and fully built portfolio of my own!</p></div>
-        <p class="quote">"You could spend the <strong> rest of your life learning </strong> all the intricacies of Python and of <strong>programming</strong> in general, but then you would never complete any projects.
-        <em>Do not try to write perfect code;</em> write code that works, and then decide whether to improve your code for that project or move on to something new. Try to keep this philosophy of simplicity and clarity in mind. "  <em>- Some guy from Reddit </em></p>
-        <a href="pages/about.html"><div class="sitelinks">About Me</div></a>
-        <a href="https://www.instagram.com/ela.codes" target = '_blank'><div class="sitelinks">Instagram</div></a>
-        <a href="pages/recipe.html"><div class="sitelinks">Favourite Dessert Recipes</div></a>
-        <div class="last-update">Last updated on July 4, 2022</div>
+			<div class="main-content">
+				<h1 class="greeting">Hi ! 
+				<br> This is Ela. </h1>
 
-    </body>
+				<div class="main-paragraph"><p>It's my first website. </p>
+					<p>I'm operating on <strike>Xubuntu</strike> WSL2, using VS Code, and following <a href="https://www.theodinproject.com/" target="_blank" class="TOP-link">The Odin Project</a> curriculum.</p>
+					<p>I'm currently pursuing a <em>full-stack developer</em> roadmap with a background in<em> Python.</em></p>
+					<p>I'm using this website to showcase my progress as I go through the course.
+					<p>This will evolve into a responsive, aesthetically-pleasing, and fully built portfolio of my own!</p>
+				</div>
+			</div>
 
+			<div class="footer">
+			<!-- <div class="theme">
+				<button onclick="darkMode()">Darkmode</button>
+				</div> -->
+				<div class="last-update">Last updated on July 15, 2022</div>
+			</div>
+		</div>
+
+  <!-- <script>
+  function darkMode() {
+      var element = document.body;
+      element.classList.toggle("daylight-mode", "site-links");
+  }
+  </script> -->
+
+	</body>
 </html>
